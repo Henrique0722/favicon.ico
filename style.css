@@ -1,12 +1,25 @@
 @charset "utf-8";
 
-.logodiv > a{
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav > a{
     text-decoration: none;
     color: gray;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
     
+}
+
+nav a:hover{
+    transition: 0.5s;
+    color: rgb(211, 211, 211);
 }
 .logo{
     padding: 10px;
@@ -17,18 +30,66 @@ header{
     text-align: left;
     color: white;
     height: 350px;
+    font-size: 20px;
+    line-height: 2.1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 header p{
-  font-size: 1.7em;
-  width: 70%;
+  width: 65%;
+  margin-bottom: 0px;
 
 }
 header h2{
     font-size: 1.3em;
+    padding: 20px;
 }
-.canva{
-    display: block;
-    text-align: right;
+img{
+    border-radius: 10px;
     
 }
+
+main{
+    width: 100%;
+    
+}
+main h2{
+    padding: 10px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 56, 56);
+    margin-bottom: 0px ;
+}
+
+div{
+    float: left;
+    padding: 10px;
+    margin: auto;
+
+}
+.imgum p{
+    width: 300px;
+    line-height: 1.5em;
+    
+}
+
+.imgdois{
+    width: 300px;
+    line-height: 1.5em;
+}
+
+.imgtres{
+    width: 300px;
+    line-height: 1.5em;
+}
+.coluns p{
+    font-size: 17px;
+    
+}
+
+.coluns h3{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 65, 65);
+   }
