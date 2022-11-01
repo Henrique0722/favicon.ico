@@ -5,6 +5,10 @@ body{
     margin: 0;
     padding: 0;
 }
+nav{
+    float: right;
+    padding-top: 17px;
+}
 nav > a{
     text-decoration: none;
     color: gray;
@@ -29,7 +33,7 @@ header{
     background-color: rgba(0, 0, 0, 0.938);
     text-align: left;
     color: white;
-    height: 350px;
+    height: 400px;
     font-size: 20px;
     line-height: 2.1em;
     font-weight: bold;
