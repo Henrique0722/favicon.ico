@@ -55,6 +55,8 @@ img{
 }
 
 main{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     
 }
@@ -67,10 +69,7 @@ main h2{
 }
 
 div{
-    float: left;
-    padding: 10px;
-    margin: auto;
-
+    
 }
 .imgum p{
     width: 300px;
